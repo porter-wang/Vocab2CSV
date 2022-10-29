@@ -146,8 +146,8 @@ def main():
     print(f"\b The number of things in newDictionary: {len(newDictionary)}")
     output = pd.DataFrame.from_records(newDictionary)
     # print(output.shape)
-    output.to_csv('output.csv', sep=',', encoding='utf-8', columns=[1:])
+    output.to_csv('output.csv', sep=',', encoding='utf-8')
 
 
-# get word data
+# Start the Engine!
 main()
